@@ -1,4 +1,4 @@
-import porfolio from './assets/porfolio.jpg'
+import portfolio from './assets/portfolio.jpg'
 
 function Portfolio(){
  return(
@@ -11,7 +11,7 @@ function Portfolio(){
                 <button className="more">MORE ABOUT ME</button>
                 <button className="hire">HIRE ME</button>
             </p>
-            <img src={porfolio.jpg} alt="portfolio" className='porfolio'/>
+            <img src={portfolio.jpg} alt="portfolio" className='portfolio'/>
         </div>
 
         <div>
