@@ -1,4 +1,5 @@
-import portfolio from './assets/portfolio.jpg'
+
+import { getImageurl } from './image'
 
 function Portfolio(){
  return(
@@ -11,7 +12,7 @@ function Portfolio(){
                 <button className="more">MORE ABOUT ME</button>
                 <button className="hire">HIRE ME</button>
             </p>
-            <img src={portfolio.jpg} alt="portfolio" className='portfolio'/>
+            <img src={getImageurl("portofolio.jpg")} alt="portfolio" className='portfolio'/>
         </div>
 
         <div>
